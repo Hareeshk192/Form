@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid red;
+    width: auto;
+      
+   
+}
+mat-form-field{
+  width:300px;
+  padding-left:40%;
+}
+.example-button-row {
+    display: table-cell;
+    width: 1000px;
+  }
+  section {
+    display: table;
+  }
