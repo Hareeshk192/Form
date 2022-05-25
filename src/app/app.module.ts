@@ -8,6 +8,7 @@ import {  MatInputModule} from '@angular/material/input'
 import { MatSliderModule } from '@angular/material/slider';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ReactiveFormsModule } from '@angular/forms';
+import {MatButtonModule} from '@angular/material/button';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatFormFieldModule,
     MatInputModule,
     ReactiveFormsModule,
-  
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
